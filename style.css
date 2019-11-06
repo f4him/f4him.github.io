@@ -22,9 +22,14 @@ h1{
 .btn-outline-danger {
 	text-align: center;
 	margin-top: 290px;
-	margin-bottom: 200px;
 }
 
 #mc_embed_signup{
 	text-align: center;
+}
+
+#mc_embed_signup .button:hover {
+    background-color: 
+    #ec2323;
+    cursor: pointer;
 }
