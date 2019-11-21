@@ -1,0 +1,17 @@
+body{
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-right:10px; 
+	padding-left:10px;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	min-width: 40%;
+}
+
+.hello{
+	font-size: 75px;
+}
+
+.fahim{
+	font-size: 150px;
+}
