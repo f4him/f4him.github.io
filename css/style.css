@@ -1,11 +1,10 @@
+html
 body{
-	margin-left: 20%;
-	margin-right: 20%;
+	
 	padding-right:10px; 
 	padding-left:10px;
 	border-right: 1px solid black;
 	border-left: 1px solid black;
-	min-width: 40%;
 }
 
 .hello{
@@ -14,4 +13,39 @@ body{
 
 .fahim{
 	font-size: 150px;
+}
+
+
+.icon
+{
+	margin: 20px;
+	width: 50px;
+	height: 50px;
+}
+.main_pic{
+	float: right;
+	width: 40%;
+}
+.social
+{
+	height: 10%;
+	width: 10%;
+	padding-top: 100px;
+}
+
+footer{
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-top: 100px;
+	background-color: #b5b4a3;
+}
+
+.main_nav{
+	display: flex;
+	list-style: none;
+}
+
+li
+{
+	padding: 7%;
 }
