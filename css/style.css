@@ -8,11 +8,23 @@ html body{
 .rest{
 	text-align: left;
 	margin-top: 65px;
+	margin-top: 0px;
 }
 
 h1,h2,h3,h4,h5,h6{
+	font-family: 'Sulphur Point', sans-serif;
 	text-transform: uppercase;
 	color: yellow;
+}
+
+.no_top{
+	margin-top: 0px;
+}
+.title{
+	padding-left: 20%;
+	padding-right: 20%;
+	margin-bottom: 0px;
+
 }
 
 p{
@@ -116,6 +128,7 @@ footer{
 	margin-top: 59px;
 	text-align: left;
 	margin-left: 0px;
+	margin-bottom: 0px;
 }
 /********styles for navigation bar are here*********/
 	
