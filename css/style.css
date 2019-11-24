@@ -1,20 +1,33 @@
-html
-body{
-	
-	padding-right:10px; 
-	padding-left:10px;
-	border-right: 1px solid black;
-	border-left: 1px solid black;
+html, body,p {
+margin: 0px;
+padding: 0px;
+  border: 0px;
+}
+button{
+	color: black;
+	border: 0;
+	background-color: #45a29e;
 }
 
 .hello{
-	font-size: 75px;
+	font-size: 45px;
+	text-align: center;
 }
 
 .fahim{
-	font-size: 150px;
+	font-size: 250px;
+	text-align: center;
+	color: #fff9cf;
 }
 
+
+.wrapper{
+	text-align: center;
+	margin-left: 20%;
+	margin-right: 20%;
+	height: auto;
+	background-color: #1f2833;
+}
 
 .icon
 {
@@ -34,10 +47,11 @@ body{
 }
 
 footer{
-	padding-left: 20%;
-	padding-right: 20%;
-	padding-top: 100px;
-	background-color: #b5b4a3;
+	text-align: center;
+	margin-left: 20%;
+	margin-right: 20%;
+    bottom: 0;
+	background-color: #182628;
 }
 
 .main_nav{
@@ -49,3 +63,10 @@ li
 {
 	padding: 7%;
 }
+ p{
+ 	color: white;
+ }
+
+ html{
+ 	background: #0b0c10;
+ }
