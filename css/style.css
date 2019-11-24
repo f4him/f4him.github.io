@@ -3,13 +3,10 @@ margin: 0px;
 padding: 0px;
   border: 0px;
 }
-button{
-	color: #aef6c7;
-	border: 0;
-	background-color: #294936;
-	border: 1px solid;
-	border-color: #aef6c7;
-}
+
+ html{
+ 	background: #0b0c10;
+ }
 
 .hello{
 	font-size: 45px;
@@ -17,7 +14,7 @@ button{
 }
 
 .fahim{
-	font-size: 250px;
+	font-size: 140px;
 	text-align: center;
 }
 
@@ -27,8 +24,11 @@ button{
 	margin-left: 20%;
 	margin-right: 20%;
 	height: auto;
-	background-color: #294936;
+	background-color: gray;
 }
+
+
+/*styles for footers are here*/
 
 .icon
 {
@@ -36,10 +36,7 @@ button{
 	width: 50px;
 	height: 50px;
 }
-.main_pic{
-	float: right;
-	width: 40%;
-}
+
 .social
 {
 	height: 10%;
@@ -52,22 +49,48 @@ footer{
 	margin-left: 20%;
 	margin-right: 20%;
     bottom: 0;
-	background-color: #212922;
+	background-color: darkgray;
 }
+
+/*styles for navigation bar are here*/
 
 .main_nav{
 	display: flex;
-	list-style: none;
+	justify-content: center;
 }
 
-li
-{
-	padding: 7%;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
- p{
- 	color: #aef6c7;
- }
 
- html{
- 	background: #0b0c10;
- }
+li {
+  display: inline-block;
+  padding-top: 20px;/*
+  padding-bottom: 20px;*/ 
+  margin: 0px;
+}
+
+li a {
+
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	text-decoration: none;
+}
+
+li a:hover {
+  background-color: green;
+} 
+
+li a.active{
+	color: white;
+	background-color: red;
+}
+
