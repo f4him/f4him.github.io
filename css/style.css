@@ -1,21 +1,26 @@
-/********general attrebutes***********/
+/********general attributes***********/
 html body{
 	background-color: black;
 	margin: 0px;
 	padding: 0px;
 	border: 0px;
 }
+.rest{
+	text-align: center;
+	margin-top: 65px;
+}
+
 h1,h2,h3,h4,h5,h6{
 	text-transform: uppercase;
 	color: yellow;
 }
 
 p{
+	padding-left: 20%;
+	padding-right: 20%;
+	height: auto;
 	color: white;
-}
-
-body{
-	margin-top: 55px;
+	justify-content: center;
 }
 
 /******index page*******8*/
@@ -56,8 +61,12 @@ body{
  	border: 1px solid yellow;
  }
 
+.copyright{
+	margin-bottom: 0px;
+}
 .copyright_p{
 	color: black;
+	margin-bottom: 0px;
 }
 
 .index{
@@ -78,6 +87,7 @@ body{
 footer{
 	text-align: center;
     bottom: 0;
+    margin-bottom: 0px;
 	background-color: yellow;
 }
 /*******dp********/
@@ -94,8 +104,12 @@ footer{
    min-height: 600px;
    float: left;
 }
-/*styles for navigation bar are here*/
+/********styles for navigation bar are here*********/
 	
+.logo{
+	float: left;
+}
+
 .main_nav{
 	position: fixed;
 	margin: 0px;
@@ -136,4 +150,8 @@ li a:hover {
 li a.active{
 	color: black;
 	background-color: yellow;
+}
+
+a{
+	text-decoration: none;
 }
