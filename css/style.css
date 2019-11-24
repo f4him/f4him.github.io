@@ -4,9 +4,11 @@ padding: 0px;
   border: 0px;
 }
 button{
-	color: black;
+	color: #aef6c7;
 	border: 0;
-	background-color: #45a29e;
+	background-color: #294936;
+	border: 1px solid;
+	border-color: #aef6c7;
 }
 
 .hello{
@@ -17,7 +19,6 @@ button{
 .fahim{
 	font-size: 250px;
 	text-align: center;
-	color: #fff9cf;
 }
 
 
@@ -26,7 +27,7 @@ button{
 	margin-left: 20%;
 	margin-right: 20%;
 	height: auto;
-	background-color: #1f2833;
+	background-color: #294936;
 }
 
 .icon
@@ -51,7 +52,7 @@ footer{
 	margin-left: 20%;
 	margin-right: 20%;
     bottom: 0;
-	background-color: #182628;
+	background-color: #212922;
 }
 
 .main_nav{
@@ -64,7 +65,7 @@ li
 	padding: 7%;
 }
  p{
- 	color: white;
+ 	color: #aef6c7;
  }
 
  html{
