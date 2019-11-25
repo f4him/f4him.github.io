@@ -134,7 +134,7 @@ footer{
 
 
     font-family: 'Bree Serif', serif;
-	font-size: 150px;
+	font-size: 180px;
 	color: yellow;
 	margin-top: 59px;
 	text-align: left;
@@ -207,10 +207,11 @@ nav>a:hover{
 /******for mobile devices****/
 
 @media only screen and (max-width: 600px){
+
 	p{
 		font-size: 14px;
-		padding-left: 0px;
-		padding-right: 0px;
+		padding-left: 10%;
+		padding-right: 10%;
 	}
 		.icon
 		{
@@ -239,6 +240,11 @@ nav>a:hover{
 			padding: 10px;
 			margin: 0px;
 		}
+		.inside{
+		font-size: 90px;;
+		margin-left: 0px;
+		margin-bottom: 0px;
+}
 
 
 
