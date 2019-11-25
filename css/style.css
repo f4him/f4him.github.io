@@ -10,21 +10,16 @@ html body{
 	margin-top: 65px;
 	margin-top: 0px;
 }
-
 h1,h2,h3,h4,h5,h6{
-	font-family: 'Sulphur Point', sans-serif;
-	text-transform: uppercase;
-	color: yellow;
+	color: white;
 }
 
 .no_top{
 	margin-top: 0px;
 }
-.title{
-	padding-left: 20%;
-	padding-right: 20%;
-	margin-bottom: 0px;
 
+.subtitle{
+	font-size: 16px;
 }
 
 p{
@@ -38,6 +33,12 @@ p{
 }
 a{
 	text-decoration: none;
+	color: #fffd9e;
+}
+
+.right{
+	position: absolute;
+	right: 0;
 }
 /******index page*******8*/
 .hello{
@@ -80,11 +81,7 @@ a{
 .copyright{
 	margin-bottom: 0px;
 }
-.copyright_p{
-	font-size:18px;
-	color: black;
-	margin-bottom: 0px;
-}
+
 
 .index{
 	margin: 0px;
@@ -144,9 +141,13 @@ nav{
 }
 
 nav a{
-	padding: 20px 15px; 
+	font-family: 'Sulphur Point', sans-serif;
+	font-size: 20px;
+	padding: 16px 15px; 
 	background-color: black;
-	color: yellow;
+	color: yellow;	
+	text-transform: uppercase;
+
 
 }
 .active{
@@ -154,10 +155,34 @@ nav a{
 	color: black;
 }
 
+/*****************resume*****************************/
+.form{
+	padding-top: 50px;
+}
+
+.title{
+	font-family: 'Sulphur Point', sans-serif;
+	text-transform: uppercase;
+	color: yellow;
+	font-size: 30px;
+	padding-left: 20%;
+	padding-right: 20%;
+	margin-bottom: 0px;
+}
+
+.description{
+	margin-top: 0px;
+	font-size: 24px;
+}
+
+.github{
+	padding-left: 30px; 
+	height: 50px;
+	width: auto;
+}
 
 
-
-/******for mobile devices****
+/******for mobile devices****/
 
 @media only screen and (max-width: 600px){
 	p{
@@ -187,14 +212,8 @@ nav a{
 			height: 50%;
 			width: 50%;
 		}
-		
-		li {
-		  padding-top: 15px;
-		  padding-bottom: 15px; 
-		  margin: 0px;
-		}
 
-		li a {
+		a {
 			padding: 10px;
 			margin: 0px;
 		}
