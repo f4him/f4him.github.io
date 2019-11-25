@@ -82,6 +82,17 @@ a{
 	margin-bottom: 0px;
 }
 
+.copyright_p{
+	font-size: 18px;
+	color: black;
+	margin: 0px;
+}
+
+.copyright_p a{
+	color: black;
+	text-decoration: underline;
+}
+
 
 .index{
 	margin: 0px;
