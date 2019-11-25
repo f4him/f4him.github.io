@@ -146,6 +146,7 @@ nav{
 	position: fixed;
 	top: 0;
 	display:inline-flex;
+	/*border-bottom: 2px solid;*/
 	background-color: black;
 	width: 100%;
 	justify-content: center;
@@ -164,6 +165,13 @@ nav a{
 .active{
 	background-color: yellow;
 	color: black;
+	border-bottom: 2px solid;
+	border-color: yellow;
+}
+nav>a:hover{
+	border-bottom: 2px solid;
+	border-color: yellow;
+	
 }
 
 
@@ -171,12 +179,14 @@ nav a{
 .form{
 	padding-top: 50px;
 }
-
+.uni:hover{
+	text-decoration: underline;
+}
 .title{
 	font-family: 'Sulphur Point', sans-serif;
 	text-transform: uppercase;
 	color: yellow;
-	font-size: 30px;
+	font-size: 26px;
 	padding-left: 20%;
 	padding-right: 20%;
 	margin-bottom: 0px;
