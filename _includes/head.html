@@ -20,7 +20,7 @@
       {% endif %}
       {{ site.title | escape }}
       {% unless page.tag or page.title %}
-        - {{ site.description | escape }}
+        - {{ site.site | escape }}
       {% endunless %}
     </title>
   
