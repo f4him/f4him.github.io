@@ -390,9 +390,10 @@ main {
   .social-footer-icons {
      
     .fa {
-      font-size: 1.3rem;
+      font-size: 1.9rem;
       color: #a9a9a9;
-
+      padding: 20px;
+      
       &:hover {
         color: darken(#a9a9a9, 25%);
         transition: color 0.3s ease-in;
@@ -581,7 +582,7 @@ $link-color: var(--link-color);
     content: ' ';
     display: block;
     width: 6px;
-    height: 100%;
+    height: 80%;
     margin-left: -3px;
     background: var(--light-text-color);
     z-index: 5;
