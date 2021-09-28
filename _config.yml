@@ -1,27 +1,92 @@
-title: no style, please! # name of the site
-author: Riccardo Graziosi # name of site's author
-email: riccardo.graziosi97@gmail.com # email of site's author
-url: https://riggraz.dev # root address of the site
-baseurl: "/no-style-please" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
-description: > # description of the site (multiple lines allowed)
-  A (nearly) no-CSS, fast, minimalist Jekyll theme.
+site: Gesko
+title: Gesko
+greetings: fahim shahriar 
+description: >-
+  Welcome to my blog. Here I write about the solutions of the problems I face everyday while working so that I find them easily when I face them again. I am very glad if these posts help you in any way.
+lang: en-US
+timezone:  Europe/Rome
+repo: https://github.com/p0wex/Gesko # site repo [optional]
+data-theme: dark # default theme "dark" | "light"
 
-permalink: /:slug.html
+author:
+  name: f4him
+  bio: just a minimalist, personal blog
+  userpicture: 
+  username: Fahim Shahriar # general username
+  github: f4him # github username
+  twitter: Fahim Shahriar # twitter username
+  email: shahriarfahim23@email.com # email adress
 
-favicon: "logo.png" # name+extension of favicon (which must be put on the root folder)
-# goat_counter: "yoursitename" # put your GoatCounter name if you want to use GoatCounter analytics
+# Font Settings
+googlewebfonts: family=Play:wght@400;700&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,500;1,600;1,700;1,900
 
-theme: no-style-please # if you are using GitHub Pages, change it to remote_theme: riggraz/no-style-please
+# URL settings
+url: ""
+baseurl: ""
+permalink: pretty
 
-theme_config:
-  appearance: "auto" # can be "light", "dark" or "auto"
-  back_home_text: ".." # customize text for homepage link in post layout
-  date_format: "%Y-%m-%d" # customize how date is formatted
-  show_description: false # show blog description in home page
+# local
+# url: "http://localhost:4000" # 
+# baseurl: "" # 
+
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+
+exclude:
+  - .jekyll-cache
+  - .obsidian
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+  - CONTRIBUTING.md
+  
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
 
 sass:
-  style: :compressed
+  sass_dir: _sass
+  style: compressed
 
 plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-relative-links
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:slug
+  
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+relative_links:
+  enabled:     true
+  collections: false
+
+
