@@ -11,7 +11,9 @@
 
 }
 
-
+li:nth-child(3) p:nth-child(1){
+  color: yellow;
+}
 
 
 .l1 li{
@@ -20,4 +22,6 @@
 }
 
 
-
+.l1 .study-title1{
+  color: yellow;
+}
