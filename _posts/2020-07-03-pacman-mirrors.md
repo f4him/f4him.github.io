@@ -28,12 +28,15 @@ Here is how you can use pacman-mirrors to select the closest server so you get t
 ##### To list available countries in the default mirror pool execute this command on your terminal:
 
     pacman-mirrors --country-list
+
 ##### To list available countries in custom mirror pool execute this:
 
     pacman-mirrors --country-config
+
 ##### To check what branch you are on:
 
     pacman-mirrors --get-branch
+
 <br>
 
 >Here was the main problem I was facing. I didn’t know that Bangladesh has an official manjaro mirror. It is hosted in Xeonbd’s Bangladesh Data Center since 2018. So, I configured my pacman-mirrors for a custom mirror pool (In this case it was Bangladesh, obviously) and my problem was solved.
