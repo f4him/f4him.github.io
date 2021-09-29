@@ -1,0 +1,23 @@
+ 
+.l1 {
+/*  width: auto;
+  height: auto;
+*/  /*margin: 0 auto;*/
+  /*position: relative;*/
+  padding: 0;
+  margin-left: 0; 
+	margin-right: auto;
+	padding-bottom: 60px;
+
+}
+
+
+
+
+.l1 li{
+	list-style-type: none;
+
+}
+
+
+
