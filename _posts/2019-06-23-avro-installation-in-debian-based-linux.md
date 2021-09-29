@@ -16,7 +16,9 @@ If you do not know what is avro, it’s a system which supports most modern Engl
 >If you cant see the above bangla text or it appears as broken boxes in your bowser, installing the fonts will fix this issue.
 
 In linux, you can install avro through ibus-avro. This software works as an Engine (plugin) of IBus and let users type in English and on-the-fly transliterate them phonetically to Bangla.
+
 <br>
+
 Features of ibus-avro:
 
 - 100% compatible with the current Avro Phonetic scheme.
@@ -26,12 +28,15 @@ Features of ibus-avro:
 - All the preferences are customizable.
 
 <br>
+
 #### Installing ibus-avro:
+
 **Step 1 – Installing dependencies:**
 
 You need to install the following packages. Use the command as shown below for debian based distros:
 
 	apt-get install git ibus libibus-1.0-dev automake autoconf gjs gir1.2-ibus-1.0 ibus-1.0
+
 
 **Step 2 – Installing ibus-avro:**
 
@@ -57,6 +62,8 @@ after the successful completion of these 3 commands add the `--prefix=/usr` flag
 
 Done.
 
+<br>
+
 ##### Setting up Bangla as an input method:
 
 - Run IBus (Applications->System Tools->IBus)
@@ -68,13 +75,17 @@ Done.
 - Now Press Ctrl+Space to toggle between English and Avro (Bengali)
 - Enjoy Avro Phonetic!
 
+<br>
+
 #### Installing Bangla fonts:
 
 Now that avro is installed, you can type in Bangla without any problem. There might be one more issue though. You are most likely to see certain joint letters not showing up properly (like: স্থান, শাস্ত্র, পঞ্চাশ etc).
 
 If this is the case then you have to install some bangla fonts.
 
-To install Bangla fonts:
+<br> 
+
+**To install Bangla fonts:**
 
 - Download some Bangla fonts from [here](https://github.com/f4him/bangla-fonts "here").
 - Go to your home directory.

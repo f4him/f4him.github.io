@@ -61,6 +61,8 @@ So it’s better to execute the command like this:
 
     sudo pacman-mirrors --geoip && sudo pacman -Syyu
 
+<br>
+
 >Note: Not all countries have mirrors, if geoip returns a country not in the pool all mirrors will be used.
 
 <br>
@@ -69,7 +71,8 @@ So it’s better to execute the command like this:
 If you have checked the mirror-list and you are certain about using a custom mirror pool by some specific countries, you can use this command to do so:
 
     sudo pacman-mirrors --country Germany,France,Austria && sudo pacman -Syyu
-Customize mirror pool by interactive selection:
+
+##### Customize mirror pool by interactive selection:
 
 If you are not so comfortable supplying all arguments in commands, you can do this by an interactive selection too. This command will do it:
 
