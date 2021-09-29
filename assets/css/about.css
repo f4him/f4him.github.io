@@ -6,18 +6,58 @@
   /*position: relative;*/
   padding: 0;
   margin-left: 0; 
-	margin-right: auto;
-	padding-bottom: 60px;
+  margin-right: auto;
+  padding-bottom: 60px;
 
 }
 
 
 .l1 li{
-	list-style-type: none;
+  list-style-type: none;
+}
+
+.study li{
+  padding-bottom: 25px;
 
 }
 
 
 .l1 .study-title1{
-  color: rgb(255, 89, 125);
+  /*color: rgb(255, 89, 125);*/
+  font-weight: 700;
+}
+
+
+tbody tr td:nth-child(2) {
+  padding-left: 30px;
+}
+
+
+.study-title2 {
+  font-weight: 200;
+  font-style: italic;
+
+}
+
+
+
+
+
+.social-class {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: auto;
+  width: 100%;
+  align-content: start;
+  border-top: solid 1px #EAEAEA;
+  border-bottom: solid 1px #EAEAEA;
+}
+
+
+
+.social-class a{
+  flex: 0 0 auto;
+  margin: 10px;
 }
