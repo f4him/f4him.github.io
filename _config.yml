@@ -22,11 +22,11 @@ googlewebfonts: family=Play:wght@400;700&family=Source+Code+Pro:ital,wght@0,200;
 
 # URL settings
 url: "https://f4him.github.io"
+# url: "http://localhost:4000" 
 baseurl: ""
 permalink: pretty
 
 # local
-# url: "http://localhost:4000" # 
 # baseurl: "" # 
 
 
