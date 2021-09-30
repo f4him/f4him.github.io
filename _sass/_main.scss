@@ -106,7 +106,7 @@ html[data-theme="dark"] {
 	--medium-text-color: #52057b;
 	--main-text-color: #EAEAEA;
 	--highlight-text-color: #6cb4a0;
-	--dark-text-color: rgb(36, 38, 42);
+	--dark-text-color: rgb(222, 255, 252);
 	--link-color: rgb(255, 89, 125);
 	--code-bg-color: rgb(36, 38, 42);
 	--code-color: rgb(237, 255, 248);
@@ -249,8 +249,11 @@ section {
 
 blockquote {
 	font-style: italic;
-	border-left: 5px solid var(--dark-text-color);
-	padding-left: 1rem;
+	border-left: 3px solid var(--dark-text-color);
+	padding-left: 2rem;
+	padding-right: 2rem;
+	  text-align: justify;
+  text-justify: inter-word;
 }
 
 h1 {
@@ -365,7 +368,8 @@ time {
 }
 
 .highlight {
-	margin: 0px;
+	margin: 5px 0px 20px 0px;
+
 }
 
 main {

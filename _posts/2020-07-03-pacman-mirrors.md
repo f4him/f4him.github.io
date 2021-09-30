@@ -24,7 +24,7 @@ For pacman to function, a list of servers, or more commonly known as mirrors, wi
 
 Here is how you can use pacman-mirrors to select the closest server so you get the best possible download speed.
     
-<br>
+
 ##### To list available countries in the default mirror pool execute this command on your terminal:
 
     pacman-mirrors --country-list
@@ -37,11 +37,11 @@ Here is how you can use pacman-mirrors to select the closest server so you get t
 
     pacman-mirrors --get-branch
 
-<br>
+
 
 >Here was the main problem I was facing. I didn’t know that Bangladesh has an official manjaro mirror. It is hosted in Xeonbd’s Bangladesh Data Center since 2018. So, I configured my pacman-mirrors for a custom mirror pool (In this case it was Bangladesh, obviously) and my problem was solved.
 
-<br>
+
 ##### To Update mirror-list with the fastest mirrors you can invoke this command:
 
     sudo pacman-mirrors --fasttrack
@@ -55,17 +55,17 @@ Remember, after changing the mirror-list you have to synchronize pacman with the
 So it’s better to execute the command like this:
 
     sudo pacman-mirrors --fasttrack && sudo pacman -syyu
-<br>
+
 
 ##### To use your current location as a mirror, you can invoke this command:
 
     sudo pacman-mirrors --geoip && sudo pacman -Syyu
 
-<br>
+
 
 >Note: Not all countries have mirrors, if geoip returns a country not in the pool all mirrors will be used.
 
-<br>
+
 ##### Customize mirror pool by specific countries:
 
 If you have checked the mirror-list and you are certain about using a custom mirror pool by some specific countries, you can use this command to do so:

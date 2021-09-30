@@ -17,7 +17,7 @@ If you do not know what is avro, it’s a system which supports most modern Engl
 
 In linux, you can install avro through ibus-avro. This software works as an Engine (plugin) of IBus and let users type in English and on-the-fly transliterate them phonetically to Bangla.
 
-<br>
+
 
 Features of ibus-avro:
 
@@ -27,7 +27,7 @@ Features of ibus-avro:
 - Commonly used English words are transliterated to Bangla (like, Facebook, download etc.) even with their original English spelling.
 - All the preferences are customizable.
 
-<br>
+
 
 #### Installing ibus-avro:
 
@@ -62,7 +62,7 @@ after the successful completion of these 3 commands add the `--prefix=/usr` flag
 
 Done.
 
-<br>
+
 
 ##### Setting up Bangla as an input method:
 
@@ -75,7 +75,7 @@ Done.
 - Now Press Ctrl+Space to toggle between English and Avro (Bengali)
 - Enjoy Avro Phonetic!
 
-<br>
+
 
 #### Installing Bangla fonts:
 
@@ -83,7 +83,7 @@ Now that avro is installed, you can type in Bangla without any problem. There mi
 
 If this is the case then you have to install some bangla fonts.
 
-<br> 
+ 
 
 **To install Bangla fonts:**
 

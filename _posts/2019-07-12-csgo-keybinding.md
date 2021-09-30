@@ -24,15 +24,15 @@ Basically to bind the commands you have to go to the following location on your 
 
 	/home/your_user_name/.local/share/Steam/userdata/1025583974/730/local/cfg/config.cfg
 	
-<br>
+
 >If you have multiple accounts registered in your steam cleint, you will find multiple directories inside the `userdata` directory. Inside the user directory you will look for a directory named `730` as it is the game code of CS:GO.
 
-<br>
+
 Before you start playing with the config file, I will highly recommend you to keep a backup of the file. To back up fire up the terminal in the directory containg the config file and give the following command
 
     cp config.cfg config_backup.cfg 
 
-<br>
+
 ##### Binding a single command:
 
 Now to bind commands to a key, you have to follow the following format:
@@ -57,7 +57,7 @@ bind "l" "use weapon_c4;drop;say_team dropping bomb"
 Now, pressing ‘L’ will immediatly drop the c4 no matter which slot you are equipped with and a team message “dropping bomb” will be sent.
 
 You have to append these commands in the config file each on a newline.
-<br>
+
 There is also another method to bind keys on the developer console. After binding, there you have to export the binds to a file. Then the contents of the files have to be pasted in the config file. That method is effective for newbies who has to check the functionality of the scripts by playing at the same time. But if you know what you are doing then I suggest you to directly append the bindings to the config file.
 
 >As I have experienced, on linux, this `config.cfg` file is executed automatically everytime your game launches. So, unlike windows, you won’t have to put any launch options to auto execute your config file everytime the game launches.
