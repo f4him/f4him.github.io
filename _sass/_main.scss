@@ -45,7 +45,7 @@ html[data-theme="light"] {
 	--link-color: rgb(50, 87, 209);
 	--code-bg-color: rgb(245, 245, 245);
 	--code-color: rgb(110, 110, 110);
-
+  --name: #000;
 	background-color: rgb(255, 255, 255);
 
 	
@@ -111,6 +111,7 @@ html[data-theme="dark"] {
 	--code-bg-color: rgb(36, 38, 42);
 	--code-color: rgb(237, 255, 248);
 	background-color: rgb(19, 20, 24);
+  --name: #000;
 
 	#theme-toggle div {
 		position: relative;
@@ -828,3 +829,98 @@ $link-color: var(--link-color);
     
   }
 }
+
+
+
+.ff{
+    margin-right: 13px;
+
+    padding-left: 2px;
+    margin-right: 10px;
+  
+}
+
+.ss{
+  margin-left:10px;
+
+}
+
+
+.sssss {
+                    text-decoration: none;
+                    margin-bottom:20px;
+                    text-transform: uppercase;
+                }
+                .sssss span {
+                    transition: .5s;
+                    position: relative;
+                }
+                .sssss span:nth-child(1) {
+                    color: #fff;
+                    background: #131418;
+                }
+                .sssss span:nth-child(2) {
+                    color: #fff;
+                    background: var(--link-color);
+                }
+                .sssss span:nth-child(1):before {
+                    content: attr(data-attr);
+                    position: absolute;
+                    top: 0;
+
+                    left: 0;
+                    color:#000;
+                    padding-left: 2px;
+                    padding-right: 6px;
+                    background: var(--link-color);
+                    transition: 0.5S;
+                    transform-origin: top;
+                    transform: rotateX(90deg) translateY(-50%);
+                }
+                .sssss:hover span:nth-child(1):before {
+                    transform: rotateX(0deg) translateY(0%);
+                } 
+                .sssss span:nth-child(2):before {
+                    content: attr(data-attr);
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    background: #131418;
+                    transition: 0.5S;
+                    transform-origin: bottom;
+                    transform: rotateX(90deg) translateY(50%);
+                }
+                .sssss:hover span:nth-child(2):before {
+                    transform: rotateX(0deg) translateY(0%);
+                } 
+                .sssss  span:nth-child(1):after {
+                  content: 'ফাহিম';
+                  position: absolute;
+                  top: 0;
+                  padding-right:14px;
+                  padding-left:10px;
+                  left: 0;
+                  background: var(background-color);
+                  transform-origin: bottom;
+                  transform: rotateX(0deg) translateY(0%);
+                  transition: 0.5s;
+                }
+                .sssss:hover span:nth-child(1):after {
+                  transform: rotateX(90deg) translateY(50%);
+                }
+                .sssss span:nth-child(2):after {
+                    content: 'শাহরিয়ার';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    color:var(--name);
+                    padding-right:14px;
+                    padding-left:13px;
+                    background: var(--link-color);
+                    transition: 0.5S;
+                    transform-origin: top;
+                    transform: rotateX(0deg) translateY(0%);
+                }
+                .sssss:hover span:nth-child(2):after {
+                    transform: rotateX(90deg) translateY(-50%);
+                }
