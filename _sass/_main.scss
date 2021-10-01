@@ -178,7 +178,7 @@ a {
 
 
 
-a::before{
+a:not(.soc):before{
   content: '';
   position: absolute;
   bottom: 0;
@@ -433,11 +433,11 @@ main {
      
     .fa {
       font-size: 1.6rem;
-      color: #a9a9a9;
+      color: #fff;
       padding:0px 15px;
       
       &:hover {
-        color: darken(#a9a9a9, 25%);
+        color: var(--link-color);
         transition: color 0.3s ease-in;
       }
     }
