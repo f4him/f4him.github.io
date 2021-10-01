@@ -293,6 +293,13 @@ h1 {
 	margin-top: 1.5rem;
 }
 
+.flex-row-between a{
+align-self: flex-end;
+}
+
+
+
+
 h2,
 h3,
 h4,
@@ -427,7 +434,7 @@ main {
     .fa {
       font-size: 1.6rem;
       color: #a9a9a9;
-      padding: 15px;
+      padding:0px 15px;
       
       &:hover {
         color: darken(#a9a9a9, 25%);
