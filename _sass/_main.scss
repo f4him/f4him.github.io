@@ -40,13 +40,21 @@ html[data-theme="light"] {
 	--light-text-color: rgb(89, 183, 255);
 	--medium-text-color: #555;
 	--main-text-color: #333;
-	--highlight-text-color: #6cb4a0;
-	--dark-text-color: #393e46;
-	--link-color: rgb(50, 87, 209);
-	--code-bg-color: rgb(245, 245, 245);
+	--highlight-text-color: #007020;
+	--dark-text-color: #97bbc7;
+	--link-color: #0095d9;
+	--code-bg-color: #eeffcc;
+  --code-border-color: #ac9;
 	--code-color: rgb(110, 110, 110);
   --name: #000;
-	background-color: rgb(255, 255, 255);
+	background-color: #FEFBF3;
+
+  --kn-color: #007020;
+  --nn-color: #0e84b5;
+  --n-color: #333333;
+  --s-color: #4070a0;
+  --only-code-bg:#eaede6;
+
 
 	
 
@@ -105,13 +113,22 @@ html[data-theme="dark"] {
 	--light-text-color: #c4bbf0;
 	--medium-text-color: #52057b;
 	--main-text-color: #EAEAEA;
-	--highlight-text-color: #6cb4a0;
+	--highlight-text-color: #39A6A3;
 	--dark-text-color: rgb(222, 255, 252);
-	--link-color: rgb(255, 89, 125);
+	--link-color: #67c7ac;
 	--code-bg-color: rgb(36, 38, 42);
 	--code-color: rgb(237, 255, 248);
+  --code-border-color: #39a6a3;
 	background-color: rgb(19, 20, 24);
   --name: #000;
+
+  --kn-color: #4B778D;
+  --nn-color: #28B5B5;
+  --n-color: #8FD9A8;
+  --s-color: #D2E69C;
+
+  --only-code-bg:#2a2b27;
+
 
 	#theme-toggle div {
 		position: relative;
@@ -218,7 +235,9 @@ pre {
 }
 
 code {
+  background-color: var(--only-code-bg);
 	font-family: var(--source-code-font), monospace;
+  font-size: 96%;
 	margin: unset;
 	padding: 0.1rem;
 	color: var(--highlight-text-color);
@@ -230,11 +249,11 @@ pre code {
 }
 
 pre {
-	border-width: 3px;
+	border-width: 1px;
 	padding: 0.4rem;
 	white-space: pre-wrap;
-	border-style: none none none solid;
-	border-color: rgb(255, 89, 125);
+	border-style: solid solid solid solid;
+	border-color: var(--code-border-color);
 }
 
 img {
@@ -278,7 +297,7 @@ section {
 
 blockquote {
 	font-style: italic;
-	border-left: 3px solid var(--dark-text-color);
+	border-left: 3px solid var(--code-border-color);
 	padding-left: 2rem;
 	padding-right: 2rem;
 	  text-align: justify;
@@ -393,10 +412,19 @@ time {
 }
 
 .post > h1.title {
-	font-size: x-large;
-	margin-top: 0;
-	margin-bottom: 0;
+  font-size: x-large;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: var(--link-color);
+
 }
+
+.txt-rotate {
+  color: var(--link-color);
+
+}
+
+
 
 .post > time {
 	margin-bottom: 0;
@@ -410,7 +438,7 @@ time {
 
 main {
 	display: flex;
-	max-width: 47rem;
+  max-width: 47rem;
 	margin: -5rem auto 0;
 	padding: 2.4rem 2rem;
 	flex-direction: column;
