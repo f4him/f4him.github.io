@@ -461,12 +461,13 @@ main {
      
     .fa {
       font-size: 1.6rem;
-      color: #fff;
+      color: var(--link-color);
       padding:0px 15px;
       
       &:hover {
-        color: var(--link-color);
-        transition: color 0.3s ease-in;
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
       }
     }
   }
