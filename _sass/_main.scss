@@ -575,7 +575,7 @@ color: #333;
   display: flex;
   position: relative;
   margin-top: 0;
-  border-top: 2px solid var(--light-text-color);
+  border-top: 2px solid var(--link-color);
   line-height: 1.4;
 
   .post-nav-item {
@@ -589,7 +589,7 @@ color: #333;
     &:hover,
     &:focus {
       .post-title {
-        
+
         color: var(--link-color);
         opacity: 0.5;
       }
