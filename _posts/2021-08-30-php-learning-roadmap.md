@@ -4,7 +4,7 @@ title: A roadmap for learning PHP
 description: A roadmap for learning PHP
 summary: A roadmap for learning PHP
 tags: PHP tutorial
-minute: 10
+minute: 2
 ---
 
  
