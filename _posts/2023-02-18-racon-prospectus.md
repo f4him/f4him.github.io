@@ -7,7 +7,7 @@ tags:
 minute: 2
 ---
 
-# RACON CADET COACHING PROSPECTUS DESIGN!
+
 
 ## OUTSIDE PAGE
 
