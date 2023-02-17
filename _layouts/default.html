@@ -32,7 +32,7 @@ layout: compress
 
     theme = theme || (window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light' : 'light');
 
-    setTheme(theme);
+    setTheme('dark');
 
     function modeSwitcher() {
       let currentMode = document.documentElement.getAttribute('data-theme');
