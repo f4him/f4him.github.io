@@ -16,15 +16,15 @@ layout: compress
   <script>
     function setTheme(theme) {
       if (theme === "dark") {
-        document.documentElement.setAttribute('data-theme', 'dark');
-        window.localStorage.setItem('theme', 'dark');
-        document.getElementById("theme-toggle").classList.add('sun');
-        document.getElementById("theme-toggle").classList.remove('moon');
-      } else {
         document.documentElement.setAttribute('data-theme', 'light');
         window.localStorage.setItem('theme', 'light');
         document.getElementById("theme-toggle").classList.add('moon');
         document.getElementById("theme-toggle").classList.remove('sun');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        window.localStorage.setItem('theme', 'dark');
+        document.getElementById("theme-toggle").classList.add('sun');
+        document.getElementById("theme-toggle").classList.remove('moon');
       }
     }
 
