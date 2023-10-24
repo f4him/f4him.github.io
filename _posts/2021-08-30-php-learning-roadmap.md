@@ -7,6 +7,7 @@ tags: PHP tutorial
 minute: 2
 ---
 
+>If You are are new in programming and don't know what php is, [this](https://www.php.net/docs.php) will be a quick help for you. 🥹
  
 So, when I wanted to learn php, it was not because I want to learn php rather it was because I had to learn laravel as a job requirement. I knew It was crazy to think about learning a framework without any prior knowledge in the language it was based upon. But as I already worked with django framework, I was pretty much desperate. So, I went through a lot of things like google, reddit, stackoverflow and what not to have the best suggestion from people who are already proficient in php. And yes, I found a lot of paths and roadmaps. So, I wanted to list them all in a single place to find them easily when needed.
 
