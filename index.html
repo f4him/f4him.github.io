@@ -1,54 +1,15 @@
----
-layout: default
----
-<section id="intro">
-    <div class="flex-row-between">
-
-        <h1><span
-     class="txt-rotate"
-     data-period="3000"
-     data-rotate='[ "Fahim Shahriar", "ফাহিম শাহরিয়ার", "फाहिम शहरियार", "ファヒム シャハリヤル"]'></span></h1>
-        <!-- <h1 class="sssss"><span class="ff" data-attr="FAHIM">ফাহিম</span><span class="ss" data-attr="SHAHRIAR">শাহরিয়ার</span></h1> -->
-        <!-- <h1 class="sssss">{{ site.greetings }}</h1> -->
-        <button title="Change theme" id="theme-toggle" onclick="modeSwitcher()">
-            <div></div>
-        </button>
-    </div>
-    <div class="bio">
-	    {{ site.description }}
-        <p>
-	    <a href="{{ site.url }}{{ site.baseurl }}/about/">> About me</a>
-        </p>
-    </div>
-
-
-</section>
-
-
-
-<div class="search-article">
-    <label for="search-input" aria-hidden="true">
-        <!-- Magnifier -->
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
-            stroke="rgba(128,128,128,0.8)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-            class="feather feather-search">
-            <circle cx="11" cy="11" r="8"></circle>
-            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-        </svg>
-    </label>
-
-    <input type="search" id="search-input" placeholder="Find some articles here" aria-label="Search">
-    <ul id="search-results"></ul>
-</div>
-
-<section class="posts" id="Blog">
-    <h2>BLOG</h2>
-    <ul>
-        {% for post in site.posts %}
-        <li>
-		<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
-        </li>
-        {% endfor %}
-    </ul>
-</section>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+<h1>Happy Birthday Nijhumpakhi</h1>
+<canvas id="birthday"></canvas>
+    <script src="script.js"></script>
+  </body>
+</html>
