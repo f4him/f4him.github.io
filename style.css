@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  max-width:480px;
   background: #020202;
   cursor: crosshair;
 }
