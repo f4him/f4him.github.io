@@ -1,6 +1,6 @@
 # Gesko
 
-Simple and minimal Jekyll blog. 
+Simple and minimal Jekyll blog.
 Forked from [Asko](https://github.com/manuelmazzuola/asko).
 Original theme from [Sidey](https://github.com/ronv/sidey).
 
@@ -10,18 +10,17 @@ Original theme from [Sidey](https://github.com/ronv/sidey).
 - [x] Dark/Ligh theme 🌗
 - [x] Inline CSS
 - [x] Anchor headings
-- [x] Tags & Tag pages 
-- [x] 404 page 
+- [x] Tags & Tag pages
+- [x] 404 page
 - [x] Robots.txt 🤖
 - [x] Atom & Json feeds 📡
-- [x] Sass 
+- [x] Sass
 - [x] About page, with Timeline! 🗣️
 - [x] PageSpeed and w3Validator tests PASSED ✔️
 - [x] Search bar 🔎
 - [x] Next & Previous Post ⏮️ ⏭️
 - [x] Automatic/Manual reading time estimation 🕐
-- [x] Disqus section (optional) ✍️ 
-
+- [x] Disqus section (optional) ✍️
 
 ## Screenshot
 
@@ -30,12 +29,14 @@ Original theme from [Sidey](https://github.com/ronv/sidey).
 
 ## Installation
 
-Be sure to have all [you need](https://jekyllrb.com/docs/installation/) before running anything. 
+Be sure to have all [you need](https://jekyllrb.com/docs/installation/) before running anything.
+
+
 
 Run local server:
 
 ```bash
-$ git clone https://github.com/DavideBri/Gesko.git
+$ git clone [git repo link]
 $ cd Gesko
 $ bundle install
 $ bundle exec jekyll build
@@ -47,18 +48,19 @@ If you want to upload it to Github Pages, remember to update the `_congif.yml` a
 Note that there is also a gtag in the [`_layouts/default.html`](https://github.com/DavideBri/Gesko/blob/6776e4afc384dc3d50ce2001715929c8e70a914c/_layouts/default.html#L9), you should remove it.
 
 To create new tag, create a folder in `tag/` with the name of the new one. In this folder add an `index.html` file and just add this header:
+
 ```
 ---
 layout: tag
 tag: yourNewTag
 ---
 ```
+
 Then build again and you're ready!!
 
 ## Contributing
 
 Yeaaa feel free to open a pull request.
-
 
 If you see any typos or formatting errors in a post, or want to helping reduce backlogs or any other issue that needs to be addressed, please do not hesitate to open a pull request and fix it!, please read [contributing](./CONTRIBUTING.md) before PR.
 
